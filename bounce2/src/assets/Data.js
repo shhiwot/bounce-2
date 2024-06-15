@@ -53,5 +53,6 @@ const data = [
     country: "Ethiopia",
     district: "Addis Ketema",
   },
+  
 ];
 export default data;

@@ -7,7 +7,6 @@ body {
     margin: 50px 100px;
     width: 40%;
     margin: 5% 30%;
-
 }
 
 .header {
@@ -17,7 +16,7 @@ body {
 }
 
 .header:hover {
-    cursor: pointer;
+    cursor: grabbing;
     transform: scale(1.08);
     border-color: blue;
     color: green;
@@ -30,7 +29,6 @@ body {
     border: solid 1px black;
     border-radius: 16px;
     animation: myAnim 2s ease-in 0s 1 normal forwards;
-    display: grid;
     margin: 10px 0;
 }
 
@@ -81,8 +79,8 @@ body {
 .tomato:hover {
     filter: drop-shadow(0 0 2em white);
     cursor: pointer;
-    background-color: lightpink;
-    transform: scale(5);
+    background-color: lightseagreen;
+    transform: scale(1.5);
 }
 
 .silver {
@@ -96,5 +94,8 @@ body {
 }
 
 .silver:hover {
-    filter: drop-shadow(0 0 2em red);
+    filter: drop-shadow(0 0 2em white);
+    cursor: pointer;
+    background-color: lightseagreen;
+    transform: scale(1.05);
 }
